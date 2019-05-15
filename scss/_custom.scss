@@ -1,0 +1,170 @@
+body {
+    font-family: 'Righteous', cursive;
+   }
+
+
+.top-nav {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    background: linear-gradient(90deg, #c67700 0%, #22C1C3 80%);
+}
+
+.top-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+
+    li {
+        float: left;
+        padding: 10px 15px;
+        color: #EEEDEE;
+        font-size: 13px;
+    }
+
+    li:first-child {
+        padding-left: 0; 
+    }
+
+    li i {
+        padding-right: 8px;
+    }
+
+}
+.top-list-right {
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    overflow: hidden;
+    float: right;
+
+    li {
+        padding: 10px 15px;
+        float: left;
+        font-size: 13px;
+    }
+
+    a {
+color: #EEEDEE;
+    }
+
+    a:hover {
+        color: goldenrod;
+    }
+
+    li i {
+        padding-right: 8px;
+    }
+}
+
+.top-bar-right {
+
+li {
+   padding: 10px 15px;
+   float: right; 
+}
+
+   a { 
+    color:  rgb(43, 43, 40);
+   }
+    a:hover {
+       color: #EEEDEE;
+   }
+}
+.button {
+    border: 2px solid transparent;
+    border-radius: 25px;
+    box-shadow: #EEEDEE;
+}
+
+#sub-menu {
+ display: flex;
+ justify-content: center;
+ text-decoration: underline;
+ 
+ a {
+     color: #8a8a8a;
+ }
+
+ a:hover {
+     color: goldenrod;
+ }
+
+}
+
+#side-bar {
+    display: block;
+    list-style: none;
+
+    li {
+        text-align: left;
+    }
+    a {
+        color: goldenrod;
+    }
+
+    a:hover {
+        color: #8a8a8a;
+    }
+}
+
+
+span {
+    color: goldenrod;
+   }
+
+   html, body {
+
+    background-color:rgb(34, 193, 195);
+    text-align: center;
+}
+
+#form-outer {
+    position: relative;
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 900px;
+    padding: 40px 0px 10px 0px;
+  }
+
+#title {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#description {
+    color: #8a8a8a;
+    font-size: 30px;
+    text-align: center;
+}
+
+#submit {
+    color: #fcff9e;
+}
+
+.subheader {
+    font-family: 'Righteous', cursive;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    max-width: 25%;
+    height: auto;
+    border-radius: 10px;
+}
+
+// crypto page 
+
+td {
+    color: red;
+}
+
+
+
+
+
