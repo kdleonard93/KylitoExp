@@ -1,5 +1,5 @@
 body {
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous';
    }
 
 
@@ -84,7 +84,7 @@ li {
  text-decoration: underline;
  
  a {
-     color: #8a8a8a;
+     color: rgb(43, 43, 40);
  }
 
  a:hover {
@@ -105,7 +105,7 @@ li {
     }
 
     a:hover {
-        color: #8a8a8a;
+        color: rgb(43, 43, 40);
     }
 }
 
@@ -137,7 +137,7 @@ span {
 }
 
 #description {
-    color: #8a8a8a;
+    color: rgb(43, 43, 40);
     font-size: 30px;
     text-align: center;
 }
@@ -147,7 +147,8 @@ span {
 }
 
 .subheader {
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous';
+    color: rgb(43, 43, 40);
 }
 
 img {
