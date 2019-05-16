@@ -7,7 +7,7 @@ body {
     width: 100%;
     padding: 0%;
     margin: 0%;
-    background: linear-gradient(90deg, #c67700 0%, #22C1C3 80%);
+    background: linear-gradient(90deg, #c67700 0%, rgba(107, 224, 226, .1) 80%);
 }
 
 .top-list {
@@ -116,7 +116,7 @@ span {
 
    html, body {
 
-    background-color:rgb(34, 193, 195);
+    background-color:rgba(107, 224, 226, .7);
     text-align: center;
 }
 
@@ -162,6 +162,11 @@ img {
 
 td {
     color: red;
+}
+
+#frame-nav {
+display: flex;
+justify-content: center;
 }
 
 
