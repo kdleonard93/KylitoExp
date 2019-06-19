@@ -1,5 +1,10 @@
+// Global Page Template
+
 body {
     font-family: 'Righteous';
+    background-color:rgba(107, 224, 226, .9);
+    text-align: center;
+    color:  rgb(43, 43, 40);
    }
 
 
@@ -93,32 +98,59 @@ li {
 
 }
 
-#side-bar {
-    display: block;
-    list-style: none;
 
-    li {
-        text-align: left;
-    }
-    a {
-        color: goldenrod;
+
+// Home Page
+.top-area {
+    border-bottom: 2px dashed goldenrod;
+
+img {
+    width: 150px;
+    height: 205px;
+    border-radius: 25%;
+    margin: 5px auto;
     }
 
-    a:hover {
+    h1 {
+        font-size: 25px;
+        font-weight: bold;
         color: rgb(43, 43, 40);
     }
+
 }
-
-
 span {
     color: goldenrod;
    }
 
-body {
-
-    background-color:rgba(107, 224, 226, .9);
-    text-align: center;
+td {
+    color:rgb(43, 43, 40);
+    border: 2px solid goldenrod;
 }
+
+.mid-area {
+    display: flex;
+    justify-content: space-evenly;
+
+    p {
+        padding:30px;
+    }
+        
+    .intro {
+            width:50%;
+        }
+        
+    .skills {
+            width:50%;
+        }
+    li {
+        list-style-type: none;
+    }
+
+    
+}
+
+
+// Contact Me Page
 
 #form-outer {
     position: relative;
@@ -128,13 +160,6 @@ body {
     max-width: 900px;
     padding: 40px 0px 10px 0px;
   }
-
-#title {
-    color: white;
-    padding: 10px;
-    margin: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
 
 #description {
     color: rgb(43, 43, 40);
@@ -153,9 +178,6 @@ body {
 
 // crypto page 
 
-td {
-    color: blue;
-}
 
 #frame-nav {
 display: flex;
