@@ -122,11 +122,6 @@ span {
     color: goldenrod;
    }
 
-td {
-    color:rgb(43, 43, 40);
-    border: 2px solid goldenrod;
-}
-
 .mid-area {
     display: flex;
     justify-content: space-evenly;
@@ -144,9 +139,16 @@ td {
         }
     li {
         list-style-type: none;
-    }
+    }   
+}
 
-    
+table {
+    background: linear-gradient(to right, rgba(107, 224, 226, .1), #b6fbff);
+}
+
+td {
+    color:rgb(43, 43, 40);
+    border: 2px solid goldenrod;
 }
 
 
