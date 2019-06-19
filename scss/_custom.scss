@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Righteous';
-    background-color:rgba(107, 224, 226, .9);
+    background-image: linear-gradient( 135deg, #5EFCE8 10%, rgb(115, 110, 254) 80%);
     text-align: center;
     color:  rgb(43, 43, 40);
    }
@@ -12,7 +12,7 @@ body {
     width: 100%;
     padding: 0%;
     margin: 0%;
-    background: linear-gradient(90deg, #c67700 0%, rgba(107, 224, 226, .1) 80%);
+    background: linear-gradient(90deg, #c67700 0%, rgba(115, 110, 254, .1) 80%);
 }
 
 .top-list {
@@ -80,7 +80,11 @@ li {
 .button {
     border: 2px solid transparent;
     border-radius: 25px;
-    box-shadow: #EEEDEE;
+    background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%) !important;
+}
+
+.button:hover { 
+    background-position: right center; 
 }
 
 #sub-menu {
@@ -127,7 +131,8 @@ span {
     justify-content: space-evenly;
 
     p {
-        padding:30px;
+        padding: 20px;
+        margin: 0 auto;
     }
         
     .intro {
@@ -141,11 +146,7 @@ span {
         list-style-type: none;
     }   
 }
-
-table {
-    background: linear-gradient(to right, rgba(107, 224, 226, .1), #b6fbff);
-}
-
+ 
 td {
     color:rgb(43, 43, 40);
     border: 2px solid goldenrod;
@@ -185,8 +186,3 @@ td {
 display: flex;
 justify-content: center;
 }
-
-
-
-
-

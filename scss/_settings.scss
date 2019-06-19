@@ -62,10 +62,10 @@
 
 @import 'util/util';
 
-$primary: #0f74a0;
+$primary-color: #0f74a0;
 $secondary: goldenrod;
 $drop-back: transparent;
-
+$custom-button: red;
 
 // 1. Global
 // ---------
@@ -74,7 +74,7 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: $primary,
+  primary: $primary-color,
   secondary: $secondary,
   success: #3adb76,
   warning: #ffae00,
